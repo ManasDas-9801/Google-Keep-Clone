@@ -115,7 +115,7 @@ export default function Card() {
         setNoteData(copy);
         setUserData("");
         // userData("");
-         let title = document.getElementById('mess').value = '';
+         document.getElementById('mess').value = '';
        
      };
     return (
@@ -166,24 +166,3 @@ export default function Card() {
         </>
     );
 }
-{/* <Grid item xs={12} md={3}>
-                        <SimplePaper title='This is second Title' backcolor='#f28b82' backborder='#f28b82' />
-                    </Grid>
-                    <Grid item xs={12} md={3}>
-                        <SimplePaper title='This is third Title' backcolor='#fbbc04' backborder='#fbbc04' />
-                    </Grid>
-                    <Grid item xs={12} md={3}>
-                        <SimplePaper title='This is fourth Title' backcolor='#fff475' backborder='#fff475' />
-                    </Grid>
-                    <Grid item xs={12} md={3}>
-                        <SimplePaper title='This is fifth Title' backcolor='#a7ffeb' backborder='#a7ffeb' />
-                    </Grid>
-                    <Grid item xs={12} md={3}>
-                        <SimplePaper title='This is sixth Title' backcolor='#a7ffeb' backborder='#a7ffeb' />
-                    </Grid>
-                    <Grid item xs={12} md={3}>
-                        <SimplePaper title='This is eight Title' backcolor='#aecbfa' backborder='#aecbfa' />
-                    </Grid>
-                    <Grid item xs={12} md={3}>
-                        <SimplePaper title='Vinay Ka email' backcolor='#d7aefb' backborder='#d7aefb' />
- </Grid> */}

@@ -25,7 +25,7 @@ import NotificationsNoneOutlinedIcon from '@mui/icons-material/NotificationsNone
 import CreateOutlinedIcon from '@mui/icons-material/CreateOutlined';
 import ArchiveOutlinedIcon from '@mui/icons-material/ArchiveOutlined';
 import DeleteOutlineOutlinedIcon from '@mui/icons-material/DeleteOutlineOutlined';
-import SearchBar from './SearchBar';
+// import SearchBar from './SearchBar';
 import Divider from '@mui/material/Divider';
 import Notes from './Notes';
 const drawerWidth = 240;
@@ -144,6 +144,7 @@ const Search = styled('div')(({ theme }) => ({
     [theme.breakpoints.up('xs')]: {
         marginLeft: theme.spacing(3),
         width: 'auto',
+        // eslint-disable-next-line
         marginLeft: '8%',
 
     },
